@@ -11,7 +11,7 @@ namespace UserManagement.Controllers
         // GET: User
         public ActionResult Index()
         {
-            return View();
+            return View("Index", "_LayoutVerified");
         }
 
         // GET: User/Details/5

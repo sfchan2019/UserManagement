@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\UserManagement",
+    "\\UserManagement\\App_Start",
+    "\\UserManagement\\Controllers"
+  ],
+  "SelectedNode": "\\UserManagement\\Controllers\\LoginController.cs",
+  "PreviewInSolutionExplorer": false
+}
