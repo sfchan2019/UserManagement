@@ -45,10 +45,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -122,11 +130,30 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TestControlle.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Login.cs">
+      <DependentUpon>UsersModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\UsersModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UsersModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UsersModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersModel.edmx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\UserDatabase.mdf" />
@@ -154,6 +181,16 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Models\UsersModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>UsersModel.Context.cs</LastGenOutput>
+      <DependentUpon>UsersModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\UsersModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>UsersModel.edmx</DependentUpon>
+      <LastGenOutput>UsersModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -173,9 +210,20 @@
     <Content Include="Views\Shared\_LayoutVerified.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\Home\Register.cshtml" />
+    <EntityDeploy Include="Models\UsersModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>UsersModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\UsersModel.edmx.diagram">
+      <DependentUpon>UsersModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Views\TestControlle\Create.cshtml" />
+    <Content Include="Views\TestControlle\Delete.cshtml" />
+    <Content Include="Views\TestControlle\Details.cshtml" />
+    <Content Include="Views\TestControlle\Edit.cshtml" />
+    <Content Include="Views\TestControlle\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Views\Admin\" />
   </ItemGroup>
   <ItemGroup>
@@ -190,6 +238,9 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

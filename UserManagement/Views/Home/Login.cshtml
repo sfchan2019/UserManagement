@@ -7,13 +7,16 @@
 
 <br />
 
-<label>Username:</label>
-<br />
-<input type="text" placeholder="Enter Username" name="uname" required>
-<br />
-<label>Password:</label>
-<br />
-<input type="text" placeholder="" name="upassword" required>
-<br />
+<form action="/Home/Login" method="post">
+    <label>Username:</label>
+    <br />
+    <input type="text" placeholder="Enter Username" name="uname" required>
+    <br />
+    <label>Password:</label>
+    <br />
+    <input type="text" placeholder="" name="upassword" required>
+    <br />
 
-<button>Login</button>
+    <input type="button" value="Login"/>
+</form>
+

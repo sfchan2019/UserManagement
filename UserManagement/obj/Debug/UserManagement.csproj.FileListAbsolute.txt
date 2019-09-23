@@ -150,3 +150,7 @@ C:\Users\Brandon Stephens\Documents\Programming\Visual Studio Code\UserManagemen
 C:\Users\Brandon Stephens\Documents\Programming\Visual Studio Code\UserManagement\UserManagement\obj\Debug\UserManagement.csproj.CopyComplete
 C:\Users\Brandon Stephens\Documents\Programming\Visual Studio Code\UserManagement\UserManagement\obj\Debug\UserManagement.dll
 C:\Users\Brandon Stephens\Documents\Programming\Visual Studio Code\UserManagement\UserManagement\obj\Debug\UserManagement.pdb
+C:\Users\Brandon Stephens\Documents\Programming\Visual Studio Code\UserManagement\UserManagement\bin\EntityFramework.dll
+C:\Users\Brandon Stephens\Documents\Programming\Visual Studio Code\UserManagement\UserManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Brandon Stephens\Documents\Programming\Visual Studio Code\UserManagement\UserManagement\bin\EntityFramework.xml
+C:\Users\Brandon Stephens\Documents\Programming\Visual Studio Code\UserManagement\UserManagement\bin\EntityFramework.SqlServer.xml
