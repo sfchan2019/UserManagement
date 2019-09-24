@@ -251,8 +251,6 @@ C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManag
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\Microsoft.Extensions.Logging.dll
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\Microsoft.Extensions.Primitives.dll
-C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\RestClient.dll
-C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\RestSharp.dll
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\Microsoft.Extensions.Configuration.xml
@@ -266,7 +264,6 @@ C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManag
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\Microsoft.Extensions.Logging.xml
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\Microsoft.Extensions.Primitives.xml
-C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\RestSharp.xml
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Public\Test\GroupProject\UserManagement\UserManagement\bin\UserManagement.dll.config
