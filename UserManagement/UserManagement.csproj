@@ -336,6 +336,10 @@
     <Content Include="App_Data\UserDatabase_log.ldf">
       <DependentUpon>UserDatabase.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\UserManagement.mdf" />
+    <Content Include="App_Data\UserManagement_log.ldf">
+      <DependentUpon>UserManagement.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
