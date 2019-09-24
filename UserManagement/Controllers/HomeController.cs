@@ -14,9 +14,20 @@ namespace UserManagement.Controllers
         public ActionResult Login()
         {
             ViewBag.Message = "Login";
+
            
             return View();
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Login([Bind(Include = "username,password")] Login login)
+        {
+            
+
+            return View(login);
+        }
+
 
         public ActionResult Register()
         {

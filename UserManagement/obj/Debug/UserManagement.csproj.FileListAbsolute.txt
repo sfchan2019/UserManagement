@@ -229,8 +229,8 @@ C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManag
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\Newtonsoft.Json.xml
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\Antlr3.Runtime.pdb
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\obj\Debug\UserManagement.csprojAssemblyReference.cache
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\obj\Debug\UserManagement.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\obj\Debug\UserManagement.csproj.CopyComplete
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\obj\Debug\UserManagement.dll
 C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\obj\Debug\UserManagement.pdb
+C:\Users\Administrator\Documents\Brandon's Work Folder\Website Project\UserManagement\UserManagement\obj\Debug\UserManagement.csprojAssemblyReference.cache
